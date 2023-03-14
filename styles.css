@@ -58,7 +58,6 @@ li:hover {
     align-items: center;
     flex-direction: column;
     padding: 60px 0;
-    flex: 2;
 }
 
 .main-text {
@@ -106,12 +105,13 @@ button.explore {
     background-color: transparent;
     border: 1px solid #5aebaa;
     color: black;
+    transition: 0.3s ease-in;
 }
 
 .explore:hover {
     background-color: black;
-    border: none;
     color: #5aebaa;
+    transition: 0.3s ease-in;
 }
 
 .menu-cards {
@@ -160,6 +160,11 @@ button.explore {
     color: black;
 }
 
+.card:hover {
+    box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in;
+}
+
 .card > p {
     padding: 20px;
     background-color: white;
@@ -183,6 +188,7 @@ button.explore {
     padding: 0 0 20px 0;
     margin: 10px; 
     background-color: white;
+    border-radius: 20px;
 }
 /*
 
